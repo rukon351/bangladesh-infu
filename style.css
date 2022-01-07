@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.left-side{
+    margin-right: 100px;
+}
+.right-side{
+    margin-left: 50px;
+}
+
+.photo img{
+width: 250px;
+}
+.details-btn{
+    padding: 15px 50px;
+    background-image: linear-gradient(45deg,green,red,green);
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+}
+
+
+.second-section{
+    text-align: center;
+}
+.second-section h1{
+    color: red;
+}
+.all-divisions{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.dhaka, .mymensingh, .khulna{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.div-img img{
+    width: 100%;
+}
+.bottom-section{
+    padding: 15px;
+}
+.details{
+    background-color: skyblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+.details:hover{
+    background-color: greenyellow;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: rgba(135, 207, 235, 0.178);
+}
